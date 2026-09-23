@@ -156,16 +156,16 @@ function Controls({
                     className="control-action save-button"
                     onClick={() => window.dispatchEvent(new Event("saveCanvas"))}
                 >
-                    📸 Save
+                    Save
                 </button>
                 <button
                     className="control-action"
                     onClick={() => window.dispatchEvent(new Event("replayCanvas"))}
                 >
-                    🎥 Replay
+                    Replay
                 </button>
                 <button className="control-action" onClick={() => setCamHidden((prev) => !prev)}>
-                    {camHidden ? "📷 Show Cam" : "🙈 Hide Cam"}
+                    {camHidden ? "Show Cam" : "Hide Cam"}
                 </button>
             </div>
         </aside>
